@@ -6,7 +6,6 @@ package sorts
 	}
  */
 
-//Асимптомтика (худший / средний / лучший): O(n^2) / O(n^2) / O(n)
 func Shaker[T TypeNumber](arr []T) []T {
 	if len(arr) <= 1 {
 		return arr
