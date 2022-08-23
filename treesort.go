@@ -12,7 +12,6 @@ type treeNode [T TypeNumber] struct {
 	Right *treeNode[T]
 }
 
-//Асимптомтика (худший / средний / лучший): O(nLogn) / O(nLogn) / O(nLogn)
 func Tree[T TypeNumber](arr []T) []T {
 	ans := make([]T, 0)
 	var root *treeNode[T]
