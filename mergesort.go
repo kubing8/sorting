@@ -6,7 +6,6 @@ package sorts
 	}
 */
 
-//Асимптомтика (худший / средний / лучший): O(n^2) / O(nLogn) / O(nLogn)
 func Merge[T TypeNumber](arr []T) []T {
 	if len(arr) < 2 {
 		return arr
